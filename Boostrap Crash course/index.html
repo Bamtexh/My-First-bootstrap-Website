@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boostrap Crash Course</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+     link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--------navbar--------->
+     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <div class="container">
+       <a href="#" class="navbar-brand">Bamtech</a>
+
+       <button
+        class="navbar-toggler"
+         type="button" 
+         data-bs-toggle="collapse" 
+         data-bs-target="#navmenu"
+         id="navmenu"
+         >
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+       <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#learn" class="nav-link">What you'll learn</a>
+            </li>
+            <li class="nav-item">
+                <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+                <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+            <li class="nav-item">
+                <a href="#map" class="nav-link">Location</a>
+            </li>
+            <li class="nav-item">
+                <a href="#About" class="nav-link">About</a>
+            </li>
+        </ul>
+     </div>
+     </div> 
+     </nav>
+     <!-------------showcase area-------->
+     <section class=" text-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start show">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <div>
+                    <h1>Become a <span class="text-warning">Web Developer</span></h1>
+                    <p class="lead my-4 web ">This course covers all you need to know about becoming a top skilled web developer even if you never programmed before!
+                        The guide provides an in-depth overview of the development skills you should learn,
+                         the best web development training options.</p>
+                         <button class="btn-primary btn-sm mb-2"data-bs-toggle="modal" data-bs-target="#enroll">Start The Enrollment</button>
+                </div>
+                <img class="img-fluid w-50 d-none d-sm-block"  src="images/showcase-2.svg">
+            </div>
+        </div>
+ </section>
+ <!---------------news later section---------->
+ <section class="bg-primary text-light p-5">
+     <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+            <h3 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h3>
+
+            <div class="input-group news-input">
+                <input type="text" class="form-control" placeholder="Enter E-mail" aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button class="btn btn-dark btn-lg" type="button">Submit</button>
+              </div>
+        </div>
+     </div>
+ </section>
+
+ <!---------the Boxes---------->
+ <section class="p-5">
+     <div class="container">
+         <div class="row text-center g-4">
+           <div class="col-md ">
+              <div class="card bg-dark text-light">
+                  <div class="card-body text-center">
+                    <div class="h1 mb-3">
+                    <i class=" bi bi-laptop" style=" color: #000;"></i>
+                    </div>
+                    <h3 class="card-title mb-3">
+                       Virtual  
+                    </h3>
+                    <p class="card-text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Dolor quas veniam est qui nulla repudiandae.
+                    </p>
+                    <a href="" class="btn btn-primary">READ MORE</a>
+              </div> 
+           </div>
+           </div>
+           <div class="col-md">
+            <div class="card bg-secondary text-light">
+                <div class="card-body text-center">
+                  <div class="h1 mb-3">
+                  <i class=" bi bi-person-square" style=" color: #000;"></i>
+                  </div>
+                  <h3 class="card-title mb-3">
+                     Hybrid  
+                  </h3>
+                  <p class="card-text">
+                      Lorem ipsum dolor sit amet consectetur adipisicing
+                      elit. Dolor quas veniam est qui nulla repudiandae.
+                  </p>
+                  <a href="" class="btn btn-dark">READ MORE</a>
+            </div> 
+         </div>
+        </div>
+           <div class="col-md"> 
+            <div class="card bg-dark text-light">
+            <div class="card-body text-center">
+              <div class="h1 mb-3">
+              <i class=" bi bi-people" style=" color: #000;"></i>
+              </div>
+              <h3 class="card-title mb-3">
+                 In Person 
+              </h3>
+              <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing
+                  elit. Dolor quas veniam est qui nulla repudiandae.
+              </p>
+              <a href="" class="btn btn-primary">READ MORE</a>
+        </div> 
+     </div>
+    </div>  
+    </div>
+    </div>
+</section>
+<!-------learn sections-->
+<section id="learn"  class="p-5">
+    <div class="container">
+        <div class="row align-items justify-content-between pb-4">
+            <div class="col-md">
+              <img src="images/fundamentals.svg" class="img-fluid"> 
+            </div>
+            <div class="col-md p-5">
+                <h2>Learn The Fundamentals</h2>
+                <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                     elit. Id suscipit quisquam nobis nihil recusandae! Minima!
+                    </p>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Id suscipit quisquam nobis nihil recusandae! Minima!
+                    </p>
+                    <a href="#" class="btn btn-light mt-3"><i class="bi bi-chevron-right"></i>READ MORE</a>
+            </div>
+        </div>
+    <div class="row align-items-center justify-content-between pb-4">
+        <div class="col-md p-5">
+            <h2>Learn Back-End Development</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing
+             elit. Sint tempora minima odio error voluptatibus nesciunt.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing
+             elit. Quas repellendus quos corrupti laboriosam, id culpa.
+            </p>
+            <a href="#" class="btn btn-dark mt-3">READ MORE <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+        <div class="col-md">
+            <img src="images/Backend.svg" class="img-fluid">
+        </div>
+    </div>
+    <div class="row align-items-center justify-content-between pt-4 ">
+        <div class="col-md p-5">
+            <img src="images/app-development.svg" class="img-fluid"> 
+        </div>
+        <div class="col-md">
+            <h2>Learn App Development</h2>
+            <p>
+                Application development is the process of designing, building, and implementing software applications.
+                 It can be done by massive organizations with large teams working on projects, or by a single freelance developer.
+            </p>
+            <p>
+                An application developer's typical responsibilities include coding, designing, application management, troubleshooting, monitoring updates and possible security threats, and providing end user support.
+                They may also handle some project management tasks on the journey to building a new application.
+            </p>
+            <a href="#" class="btn btn-dark mt-3">READ MORE <i class="bi bi-arrow-right-circle"></i></a>
+        </div>
+    </div>
+    </div>
+</section>  
+<!--------------------FAQS--------------------> 
+<section id="questions" class="p-5">
+    <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Web-Development?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  What Does It Take To Become a Web Developer?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Why Are the Courses so Important?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    How Much does it cost?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Will a Certificate be given to me by the end of the course?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    How much can i learn in a Space of 3 Weeks?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                </div>
+              </div>
+          </div>
+    </div>
+</section> 
+
+
+<!--------------Instructors------------->
+<section id="instructors" class="p-5 bg-primary">
+    <div class="container">
+        <h2 class="text-center text-white">Our Instructors</h2>
+        <p class="lead text-center text-white mb-5 ">
+            Our instructors all have 5+ years working as a web developer in the tech industry
+        </p>
+        <div class="row g-4" >
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="images/img-1.jpg" class="rounded-circle mb-3 w-50">
+                        <h3 class="card-title mb-3">Mike kyle</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, impedit sed dicta facere quia odio?
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="images/img-2.jpg" class="rounded-circle mb-3 w-50">
+                        <h3 class="card-title mb-3">Sarah Jade</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, impedit sed dicta facere quia odio?
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="images/img-3.jpg" class="rounded-circle mb-3 w-50">
+                        <h3 class="card-title mb-3">Mark Bruno</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, impedit sed dicta facere quia odio?
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img src="images/img-1.jpg" class="rounded-circle mb-3 w-50">
+                        <h3 class="card-title mb-3">Luke Singh</h3>
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos, impedit sed dicta facere quia odio?
+                        </p>
+                        <a href="#"><i class="bi bi-twitter text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-facebook text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-instagram text-dark mx-1"></i></a>
+                        <a href="#"><i class="bi bi-whatsapp text-dark mx-1"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</div>
+</section>
+<!--------PLAN------------------>
+<section class="p-5">
+    <div class="container">
+        <h2 class="text-center text-dark mb-4"> Choose Your Plan</h2>
+        <div class="price-row">
+            <div class="price-col">
+               <p class="lead">Starter</p> 
+               <h3>₦3500 <span>/ month</span></h3>
+               <ul>
+                   <li>1 Website</li>
+                   <li>10 GB Disk Space</li>
+                   <li>HD tuturial Videos</li>
+                   <li>Free Email Address</li>
+                   <li>NO SSL Certificate</li>
+                   <li>Limited Support</li>
+               </ul>
+               <button>Add To Cart</button>
+            </div>
+            <div class="price-col">
+                <p class="lead">Advanced</p> 
+                <h3>₦6500 <span>/ month</span></h3>
+                <ul>
+                    <li>1 Website</li>
+                    <li>10 GB Disk Space</li>
+                    <li>HD tuturial Videos</li>
+                    <li>Free Email Address</li>
+                    <li>NO SSL Certificate</li>
+                    <li>Limited Support</li>
+                </ul>
+                <button>Add To Cart</button>
+             </div>
+             <div class="price-col">
+                <p class="lead">Premium</p> 
+                <h3>₦15000<span>/ month</span></h3>
+                <ul>
+                    <li>1 Website</li>
+                    <li>10 GB Disk Space</li>
+                    <li>HD tuturial Videos</li>
+                    <li>Free Email Address</li>
+                    <li>NO SSL Certificate</li>
+                    <li>Limited Support</li>
+                </ul>
+                <button>Add To Cart</button>
+             </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----------------------Map location------------>
+<section id="map" class="p-5 align-items-center">
+    <div class="make justify-content-center">
+        <h2 class="text-center text-dark pb-3">Our Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.355186464549!2d3.909480314955614!3d7.425887814074502!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1039ed53f981a5c3%3A0xa1ad8a4cf6ef799e!2sPetals%20FM%20102.3!5e0!3m2!1sen!2sng!4v1651499295659!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+<!-----------------------Contact-Info----------------->
+<section class="p-5">
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md">
+                <h2 class="text-center mb-4">Contact Info</h2>
+                <ul class="list-group list-group-flush lead">
+                    <li class="list-group-item">
+                        <span class="fw-bold">Main Location:</span>50 Main st Boston MA
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Enrollment Phone:</span> (0810987654)
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Student Phone:</span>(333)333-33333
+                    </li>
+                    <li class="list-group-item">
+                        <span class="fw-bold">Student E-mail:</span>Eduplug@gmail.com
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!------------Abou US------------>
+<section id="About" class="p-5 bg-light">
+    <div class="container">
+        <div class="row align-items-center justify-content-between pb-4">
+            <div class="col-md">
+                <img src="images/about-us.svg" class="img-fluid">
+            </div>
+            <div class="col-md">
+                <h2 class="text-dark  pt-3">About US</h2>
+                <p class="lead text-dark">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+                     </p>
+                <a href="#" class="btn btn-light mt-2">READ MORE....</a>
+            </div>
+        </div>
+</div>
+</section>
+<!-----------------------------Footer------------------->
+<section class=" text-center justify-content-center align-items-center pt-5 bg-dark position-relative">
+    <div class="row">
+    <div class="col-md ">
+        <h3 class="text-center text-light">USEFUL LINKS</h3>
+        <div class="jink">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+        <a href="#">Courses</a>
+        <a href="#">Blog</a>
+        </div>
+    </div>
+    <div class="col-md">
+        <h3 class="text-center  text-light news">NEWSLETTER</h3>
+        <form>
+            <input type="email" placeholder="Your Email Address" required class="bg-light">
+            <br>
+            <a href="#" class="btn btn-light text-dark mt-2">SUBSCRIBE</a>
+        </form>
+        <hr>
+     <p class="copyright text-light">copyright 2020 -Bamtexh</p>
+    </div>
+    <div class="col-md">
+        <h3 class="text-center text-light ">CONTACT</h3>
+        <p class="text-light">123, XYZ Road, BSK 3<br>Bamgalore, Karnataka,IN</p>
+        <div class="social-icons">
+            <i class="bi bi-facebook text-light"></i>
+            <i class="bi bi-twitter text-light"></i>
+            <i class="bi bi-instagram text-light"></i>
+            <i class="bi bi-behance text-light"></i>
+        </div>
+</div>
+</div>
+<a href="#" class="position-absolute bottom-0 end-0 p-5">
+    <i class="bi bi-arrow-up-circle h1 text-light"></i>
+</a>
+</section>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill Out this form and we will get back to you</p>
+          <form>
+              <div class="mb-3">
+            <label for="first-name" class="col-form-label">
+                First Name:
+            </label> 
+            <input type="text" class="form-control" id="first-name"> 
+        </div>
+        <div class="mb-2">
+            <label for="Last-name" class="col-form-label">
+                Last Name:
+            </label> 
+            <input type="text" class="form-control" id="Last-name"> 
+        </div>
+        <div class="mb-2">
+            <label for="email" class="col-form-label">
+                E-mail:
+            </label> 
+            <input type="text" class="form-control" id="email"> 
+        </div>
+        <div class="mb-2">
+            <label for="phone" class="col-form-label">
+                Phone-number:
+            </label> 
+            <input type="number" class="form-control" id="Phone"> 
+        </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

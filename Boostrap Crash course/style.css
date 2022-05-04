@@ -1,0 +1,184 @@
+
+body::before{
+    display: block;
+    content: '';
+    height: 50px;
+}
+.web{
+    font-weight: 500;
+}
+/*--------our Plan------------------*/
+
+.price-row{
+    display: grid;
+    align-items: center;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 25px;
+}
+.price-col{
+    background:#0F52BA ;
+    padding: 10% 15%;
+    border-radius:10px ;
+    text-align: center;
+    transition: .5s;
+
+}
+.price-col h3{
+    font-size: 44px;
+    margin-top: 20px 0 40px;
+    font-weight: 500;
+}
+.price-col h3 span{
+    font-size: 16px;
+}
+.price-col ul{
+    text-align: left;
+    margin: 20px 0;
+    color: #ddd;
+}
+.price-col ul li{
+    margin: 15px 0;
+}
+.price-col button{
+    width: 100%;
+    padding: 14px 0;
+    background: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-top:20px;
+    cursor: pointer;
+    transition: 0.5s ;
+}
+.price-col:hover{
+    transform: translateY(-7px);
+}
+.price-col button:hover{
+    background: white;
+    color:black;
+}
+@media(min-width:768px){
+    .price-col{
+        flex-direction: column;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+.btn{
+    transition: .5s;
+}
+.btn:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.card{
+    transition: .5s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transform: translateY(-8px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    
+}
+.make{
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column ;
+    padding-left: auto;
+    padding-right: auto;
+}
+iframe{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    filter: invert(100%);
+}
+.navbar-brand{
+    font-family: 'Water Brush', cursive;
+    font-size: 40px;
+}
+form input{
+    width: 400px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+}
+.text-center hr{
+    border: none;
+    background: white;
+    height: 1px ;
+    margin: 20px 0;
+}
+.text-center a{
+    color: #fff;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+}
+.jink a{
+    display: block;
+}
+
+
+@media screen and (max-width: 770px){
+    .footer{
+        flex-direction: column;
+        margin: auto;
+        padding-left:auto;
+        padding-right: auto;
+    }
+    form input{
+        width: 250px;
+    }
+    .news{
+        margin-top: 20px;
+    }
+    html,body{
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+
+	}
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
